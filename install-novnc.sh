@@ -10,7 +10,7 @@ python \
 python-numpy \
 unzip \
 && \
-Cd $HOME
+cd $HOME
 git clone https://github.com/kanaka/noVNC.git && \
 cd noVNC/utils && git clone https://github.com/kanaka/websockify websockify
 
